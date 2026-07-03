@@ -3,6 +3,7 @@ import {Board} from './components/Board'
 import {Colors} from './components/Colors'
 import {Tools} from './components/Tools'
 import {Size} from './components/Size'
+import {Preview} from './components/Preview'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Colors />
           <Tools />
           <Size />
+          <Preview />
         </aside>
       </main>
     </>
